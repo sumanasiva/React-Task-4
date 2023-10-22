@@ -1,0 +1,28 @@
+.container {
+  background: black;
+  color: white;
+  padding: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid white;
+}
+
+th {
+  border-bottom: 1px solid white;
+  padding: 8px;
+}
+
+td {
+  padding: 8px;
+}
+
+img {
+  max-width: 100px;
+  max-height: 100px;
+}
+td + td {
+  border-left: 5px solid black;
+}
